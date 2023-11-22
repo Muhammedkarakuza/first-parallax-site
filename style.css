@@ -52,7 +52,7 @@
 .home2-text{
     text-align: center;
     padding: 40px;
-    background-color: gray;
+    background-color: #5E789D;
     
 }
 .home2-text h1{
@@ -78,3 +78,40 @@
 /*                                    home3                                   */
 /* ========================================================================== */
 
+.home3-img{
+    background-image: url(./img/kazan-dairesi-isitma-boyler-kaskad-sogutma-enerji-sistemleri-aplas-antalya-5.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.home3-text{
+    text-align: center;
+    background-color: #032C2D;
+    padding: 40px;
+}
+.home3-text h1{
+    color: white;
+}
+.home3-header{
+    display: inline-block;
+    background-image: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+    border: 1px solid #101A27;
+    outline: 5px solid;
+    border-radius: 10px 0;
+    outline-offset: 10px;
+    box-shadow: 1px 1px 5px 3px #101A27;
+    outline-color: #FF3E17;
+    color: bisque;
+} 
+
+/* ========================================================================== */
+/*                                    home4                                   */
+/* ========================================================================== */
