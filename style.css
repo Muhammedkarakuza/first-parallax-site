@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ========================================================================== */
+/*                                    home1                                   */
+/* ========================================================================== */
 .home1-img{
     width: 100%;
     height: 100vh;
@@ -21,7 +24,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50,-50); */
+    transform: translate(-50,-50);
 
 }
 .home1-header h1{
@@ -29,26 +32,26 @@
     box-shadow:1px 1px 5px 3px #0C75B8;
     outline: 5px solid;
     outline-offset: 10px;
-    outline-color: #FF6F5D;
+    outline-color: bisque;
     border-radius: 10px 0;
 
 }
-/*! home 2*/
+/* ========================================================================== */
+/*                                    home2                                   */
+/* ========================================================================== */
 .home2-img{
+    background-image: url(./img/whbc21-110930-01-2599093-format-16-9@392@retina.jpg);
     width: 100%;
     height: 100vh;
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
-   display: flex;
    position: relative;
-    background-image: url(./img/whbc21-110930-01-2599093-format-16-9@392@retina.jpg);
+   
 }
 .home2-text{
     text-align: center;
-    margin: 1px;
-    padding: 1px;
-    width: 100%;
+    padding: 40px;
     background-color: gray;
     
 }
@@ -56,17 +59,22 @@
     color: white;
 
 }
-/* .home2-header {
+.home2-header {
     display: inline-block;
     background-image: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid chartreuse;
-    box-shadow: 1px 1px 5px 3px chartreuse;
-    color: chartreuse;
-    outline: 5px solid;
-    outline-offset: 10px;
-    border-radius: 10px 0 10px 0;
-  } */
+    border: 1px solid #2DB3A8;
+    box-shadow: 1px 1px 5px 3px #0C75B8;
+    color: #0C75B8;
+    outline: 5px solid #033234;
+    outline-offset:10px; 
+    border-radius:0 10px ;
+}
+
+/* ========================================================================== */
+/*                                    home3                                   */
+/* ========================================================================== */
+
